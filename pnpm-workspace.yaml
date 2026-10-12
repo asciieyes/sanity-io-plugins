@@ -43,7 +43,7 @@ catalog:
   '@sanity/ui': ^4.4.4
   '@sanity/util': ^6.18.0
   '@sanity/uuid': ^3.0.3
-  '@sanity/vanilla-extract-vite-plugin': ^0.2.25
+  '@sanity/vanilla-extract-vite-plugin': ^0.2.26
   '@sanity/vision': ^6.18.0
   '@testing-library/jest-dom': ^7.0.1
   '@testing-library/react': ^16.3.3
@@ -175,10 +175,10 @@ minimumReleaseAgeExclude:
   - yuku-ast
   - yuku-codegen
   - yuku-parser
-  # 2026-10-09: yuku-parser@0.18.1 (via @sanity/vanilla-extract-integration@0.1.25, pulled in by
-  # @sanity/pkg-utils v13) pins yuku-core@0.18.1 exactly, published the same day. Exempt it like the
-  # other yuku-* toolchain packages; the exact entry prunes itself once it ages out.
-  - yuku-core@0.18.1
+  # 2026-10-12: The lockfile resolution pulled these current versions into the Sanity next stack.
+  - '@tanstack/react-virtual@3.14.17'
+  - '@tanstack/virtual-core@3.19.2'
+  - i18next@26.4.4
 
 overrides:
   '@types/node': 'catalog:'

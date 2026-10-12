@@ -33,7 +33,7 @@ catalog:
   '@sanity/icons': ^5.2.3
   '@sanity/image-url': ^2.1.1
   '@sanity/mutator': ^6.18.0
-  '@sanity/pkg-utils': ^13.0.8
+  '@sanity/pkg-utils': ^13.0.9
   '@sanity/preview-url-secret': ^4.1.5
   '@sanity/schema': ^6.18.0
   '@sanity/telemetry': '^1.1.0'
@@ -178,6 +178,7 @@ minimumReleaseAgeExclude:
   # 2026-10-12: The lockfile resolution pulled these current versions into the Sanity next stack.
   - '@tanstack/react-virtual@3.14.17'
   - '@tanstack/virtual-core@3.19.2'
+  - cac@7.1.0
   - i18next@26.4.4
 
 overrides:

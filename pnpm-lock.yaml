@@ -199,8 +199,8 @@ catalogs:
       specifier: ^2.1.1
       version: 2.1.1
     '@sanity/pkg-utils':
-      specifier: ^13.0.8
-      version: 13.0.8
+      specifier: ^13.0.9
+      version: 13.0.9
     '@sanity/preview-url-secret':
       specifier: ^4.1.5
       version: 4.1.5
@@ -326,7 +326,7 @@ catalogs:
       version: 0.1.3
     tsdown:
       specifier: ^0.23.0
-      version: 0.23.0
+      version: 0.23.1
     typescript:
       specifier: 7.0.2
       version: 7.0.2
@@ -727,10 +727,10 @@ importers:
         version: 0.4.12(srvx@1.0.5)(vite@8.3.4)
       '@vitejs/devtools-rolldown':
         specifier: ^0.4.12
-        version: 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)
+        version: 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)
       '@vitejs/devtools-vite':
         specifier: ^0.4.12
-        version: 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
+        version: 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
       oxc-transform-react:
         specifier: 'catalog:'
         version: 0.153.0
@@ -791,13 +791,13 @@ importers:
     devDependencies:
       '@sanity/pkg-utils':
         specifier: 'catalog:'
-        version: 13.0.8(@babel/runtime@7.29.7)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-resolver@11.24.2)(rolldown@1.2.13)(supports-color@5.5.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 13.0.9(@babel/runtime@7.29.7)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-resolver@11.24.2)(rolldown@1.2.13)(supports-color@5.5.0)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/tsconfig':
         specifier: 'catalog:'
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -830,7 +830,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
       typescript:
         specifier: 'catalog:'
         version: 7.0.2
@@ -882,7 +882,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/react':
         specifier: 'catalog:'
         version: 16.3.3(@testing-library/dom@10.4.2)(@types/react-dom@19.3.0)(@types/react@19.3.0)(react-dom@19.3.0)(react@19.3.0)
@@ -915,7 +915,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/block-insert-picker:
     dependencies:
@@ -940,7 +940,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/react':
         specifier: 'catalog:'
         version: 16.3.3(@testing-library/dom@10.4.2)(@types/react-dom@19.3.0)(@types/react@19.3.0)(react-dom@19.3.0)(react@19.3.0)
@@ -970,7 +970,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/code-input:
     dependencies:
@@ -1034,7 +1034,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1052,7 +1052,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/color-input:
     dependencies:
@@ -1080,7 +1080,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/vanilla-extract-vite-plugin':
         specifier: 'catalog:'
         version: 0.2.26(babel-plugin-macros@3.1.0)(vite@8.3.4)
@@ -1107,7 +1107,7 @@ importers:
         version: 19.3.0
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/cross-dataset-duplicator:
     dependencies:
@@ -1141,7 +1141,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -1162,7 +1162,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/dashboard:
     dependencies:
@@ -1187,7 +1187,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -1208,7 +1208,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/debug-live-sync-tags:
     dependencies:
@@ -1227,7 +1227,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1251,7 +1251,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/debug-preview-url-secret-plugin:
     dependencies:
@@ -1263,14 +1263,14 @@ importers:
         version: 4.1.5(@sanity/client@8.9.0)
       sanity:
         specifier: next
-        version: 6.19.0-next.78(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react-dom@19.3.0)(@types/react@19.3.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(immer@11.1.18)(jiti@2.7.0)(oxc-transform-react@0.153.0)(oxfmt@0.72.0)(react-dom@19.3.0)(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)
+        version: 6.19.0-next.78(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react-dom@19.3.0)(@types/react@19.3.0)(esbuild@0.28.2)(immer@11.1.18)(jiti@2.7.0)(oxfmt@0.72.0)(react-dom@19.3.0)(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)
     devDependencies:
       '@sanity/tsconfig':
         specifier: 'catalog:'
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1282,7 +1282,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/document-internationalization:
     dependencies:
@@ -1316,7 +1316,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -1352,7 +1352,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/embeddings-index-ui:
     dependencies:
@@ -1374,7 +1374,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1398,7 +1398,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/form-toolkit:
     dependencies:
@@ -1429,7 +1429,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/react':
         specifier: 'catalog:'
         version: 16.3.3(@testing-library/dom@10.4.2)(@types/react-dom@19.3.0)(@types/react@19.3.0)(react-dom@19.3.0)(react@19.3.0)
@@ -1459,7 +1459,7 @@ importers:
         version: 19.3.0(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/google-maps-input:
     dependencies:
@@ -1481,7 +1481,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/vanilla-extract-vite-plugin':
         specifier: 'catalog:'
         version: 0.2.26(babel-plugin-macros@3.1.0)(vite@8.3.4)
@@ -1511,7 +1511,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/hierarchical-document-list:
     dependencies:
@@ -1548,7 +1548,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -1569,7 +1569,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/language-filter:
     dependencies:
@@ -1594,7 +1594,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -1627,7 +1627,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/orderable-document-list:
     dependencies:
@@ -1658,7 +1658,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -1679,7 +1679,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/personalization-plugin:
     dependencies:
@@ -1713,7 +1713,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -1731,7 +1731,7 @@ importers:
         version: 19.3.0(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/presets:
     dependencies:
@@ -1756,7 +1756,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -1789,7 +1789,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/rich-date-input:
     dependencies:
@@ -1814,7 +1814,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1838,7 +1838,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/sanity-plugin-async-list:
     dependencies:
@@ -1863,7 +1863,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -1887,7 +1887,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/sfcc:
     dependencies:
@@ -1909,7 +1909,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -1933,7 +1933,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/studio-secrets:
     dependencies:
@@ -1955,7 +1955,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -1988,7 +1988,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/table:
     dependencies:
@@ -2010,7 +2010,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2034,7 +2034,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/themer:
     dependencies:
@@ -2086,7 +2086,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/vanilla-extract-vite-plugin':
         specifier: 'catalog:'
         version: 0.2.26(babel-plugin-macros@3.1.0)(vite@8.3.4)
@@ -2119,7 +2119,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/@sanity/vercel-protection-bypass:
     dependencies:
@@ -2144,7 +2144,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2162,7 +2162,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-naive-html-serializer:
     dependencies:
@@ -2193,7 +2193,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2220,7 +2220,7 @@ importers:
         version: 19.3.0(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-aprimo:
     dependencies:
@@ -2236,7 +2236,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2254,7 +2254,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-asset-source-unsplash:
     dependencies:
@@ -2279,7 +2279,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -2300,7 +2300,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-bynder-input:
     dependencies:
@@ -2322,7 +2322,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/vanilla-extract-vite-plugin':
         specifier: 'catalog:'
         version: 0.2.26(babel-plugin-macros@3.1.0)(vite@8.3.4)
@@ -2352,7 +2352,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-cloudinary:
     dependencies:
@@ -2380,7 +2380,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -2401,7 +2401,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-dashboard-widget-document-list:
     dependencies:
@@ -2426,7 +2426,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -2447,7 +2447,7 @@ importers:
         version: 19.3.0(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-dashboard-widget-netlify:
     dependencies:
@@ -2466,7 +2466,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -2487,7 +2487,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-dashboard-widget-vercel:
     dependencies:
@@ -2542,7 +2542,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/object-hash':
         specifier: ^3.0.6
         version: 3.0.6
@@ -2566,7 +2566,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-documents-pane:
     dependencies:
@@ -2600,7 +2600,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/dlv':
         specifier: ^1.1.5
         version: 1.1.5
@@ -2624,7 +2624,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-google-translate:
     dependencies:
@@ -2640,7 +2640,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -2661,7 +2661,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-graph-view:
     dependencies:
@@ -2695,7 +2695,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2713,7 +2713,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-hotspot-array:
     dependencies:
@@ -2744,7 +2744,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -2771,7 +2771,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-iframe-pane:
     dependencies:
@@ -2805,7 +2805,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2829,7 +2829,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-internationalized-array:
     dependencies:
@@ -2860,7 +2860,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -2896,7 +2896,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-latex-input:
     dependencies:
@@ -2912,7 +2912,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -2930,7 +2930,7 @@ importers:
         version: 19.3.0(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-markdown:
     dependencies:
@@ -2952,7 +2952,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -2973,7 +2973,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-media:
     dependencies:
@@ -3061,7 +3061,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@testing-library/jest-dom':
         specifier: 'catalog:'
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@4.1.11)
@@ -3100,7 +3100,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-mux-input:
     dependencies:
@@ -3170,7 +3170,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/lodash':
         specifier: ^4.17.25
         version: 4.17.25
@@ -3197,7 +3197,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-shopify-assets:
     dependencies:
@@ -3237,7 +3237,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -3261,7 +3261,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-studio-smartling:
     dependencies:
@@ -3277,7 +3277,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -3298,7 +3298,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-transifex:
     dependencies:
@@ -3314,7 +3314,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -3335,7 +3335,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-utils:
     dependencies:
@@ -3366,7 +3366,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -3387,7 +3387,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-workflow:
     dependencies:
@@ -3421,7 +3421,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@sanity/vanilla-extract-vite-plugin':
         specifier: 'catalog:'
         version: 0.2.26(babel-plugin-macros@3.1.0)(vite@8.3.4)
@@ -3445,7 +3445,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-plugin-workspace-home:
     dependencies:
@@ -3467,7 +3467,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/node':
         specifier: ^24.13.3
         version: 24.19.0
@@ -3488,7 +3488,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   plugins/sanity-translations-tab:
     dependencies:
@@ -3519,7 +3519,7 @@ importers:
         version: 2.2.1
       '@sanity/tsdown-config':
         specifier: 'catalog:'
-        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+        version: 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@types/react':
         specifier: 'catalog:'
         version: 19.3.0
@@ -3540,7 +3540,7 @@ importers:
         version: 6.5.3(react-dom@19.3.0)(react@19.3.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
 
   scripts/trigger-triage:
     devDependencies:
@@ -3576,7 +3576,7 @@ importers:
         version: 9.0.3
       tsdown:
         specifier: 'catalog:'
-        version: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+        version: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
       validate-npm-package-name:
         specifier: 'catalog:'
         version: 8.0.0
@@ -8443,12 +8443,12 @@ packages:
     resolution: {integrity: sha512-D5hPlA5G8h/BBZyx9oCcE3vmzgoMqll4CJU0cwXaLIgGgN4nrcpO9AY2/dsA5eP+35dpPjiwc1e+zsRitgN64g==}
     engines: {node: '>=22.12'}
 
-  '@sanity/parse-package-json@2.3.5':
-    resolution: {integrity: sha512-7PLg1/GP4QOYzlJuEogZqkMDbCQKTMe/a5eMbchIxMk1oXwViNksRbCDXvnRvOw+OtMroNgYkIOb3xNx6osUyw==}
+  '@sanity/parse-package-json@2.3.6':
+    resolution: {integrity: sha512-9IZ0xQdOBbdEMVmmBFlQ8l1UcDEXysT5Fi2hLBsX3j6ZTYuGdkJg3CUCIe4gNF3lkCNIww4N4TsTxG8swZUANA==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
-  '@sanity/pkg-utils@13.0.8':
-    resolution: {integrity: sha512-wV3/Vy/9TTH1kVty970+qZn5vfF10tvl0ukKvqt+85UCLDc6TkSMo8qrYCFZoKf/IadWG0LCaEB65qJ7PzYzpA==}
+  '@sanity/pkg-utils@13.0.9':
+    resolution: {integrity: sha512-gbsx979ZhfnoM3hCFpbeQxSocA2q0OAhq3VVEfLSVy0bV8qal6aLI4HegGkl6OfOYyBmBKBsarXyk4e1SyeBcQ==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
@@ -9860,84 +9860,6 @@ packages:
       xstate:
         optional: true
 
-  '@yuku-codegen/binding-android-arm64@0.10.2':
-    resolution: {integrity: sha512-Oc2KInVkPfUjEB4PeV6X0NvIoyYTzDe/WmqFrTwBqKs6YKnz4A7XwWQvJTb7M0rLz9a6WgpUUiiS5QKaCi4O/g==}
-    cpu: [arm64]
-    os: [android]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-darwin-arm64@0.10.2':
-    resolution: {integrity: sha512-3H7eNPIHJndUJXZ4QUGBPq1zC6RGcUZfm7bymJes+/N7wTVWUn1bxZ9JcozYHpkWQNm9f23G8YWbaHD9aYH72A==}
-    cpu: [arm64]
-    os: [darwin]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-darwin-x64@0.10.2':
-    resolution: {integrity: sha512-AJOUpR2s3LF9AWiiub/Uyc/UoXNTWcq8hK3cVI6fUSXtwh34dG21J6hRuNlO6JVJFTo4o3ScVvZOrh/YFfUEAA==}
-    cpu: [x64]
-    os: [darwin]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-freebsd-x64@0.10.2':
-    resolution: {integrity: sha512-ms7DcZu87u5CiK/wMwvpKAvAmtaqKjCQIXNweMLypG6qbuiaOMQf1jpbB5+j46xBcgCovo8TQMcv0bCQLKIL9w==}
-    cpu: [x64]
-    os: [freebsd]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-arm-gnu@0.10.2':
-    resolution: {integrity: sha512-xJDpYAsKV5+eaiBhTYl05fvT6sst4PsCeuIFMRu9b0/WCSrNQPfCDtAQ5/MS6xNpsdujdZEPR+gmfWk3ZG5i3A==}
-    cpu: [arm]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-arm-musl@0.10.2':
-    resolution: {integrity: sha512-qfTkgd7AEx61l4K9VtXWCGTxc/fmXJ4ZheDz3i+/AAJUtg4sa0bPrc0VBxPggB/rayR8Z3+JfrBItuyanBJJ9Q==}
-    cpu: [arm]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-arm64-gnu@0.10.2':
-    resolution: {integrity: sha512-4e6Mifm/4UdjtU3D8mATIrvgP+xEiH8xtQOjd0zpd72XKWT7ug3sdyhq2utkkZFP6BvYp7SgZrI+aR4VeIOHdw==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-arm64-musl@0.10.2':
-    resolution: {integrity: sha512-RdsJrUfDYFVV3JOmWFUWwSu31fa1APn12xDeIKxgl/YWxrabwtxsDBNjF2561c7tmcbiewdCUvngqRs8AyGVLA==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-x64-gnu@0.10.2':
-    resolution: {integrity: sha512-mVzWimEPPreaPyXIUvxsHoJzvO7ckZ5j0LgQFHz04zQIRwt9A9T2hA7K5/jYjJKkMxWG/U2VjhGNwVhtyU+uqg==}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-linux-x64-musl@0.10.2':
-    resolution: {integrity: sha512-Y77fyISurmr2mvO1yeq3u+x/WJbACgPR4w+lzEVx30ViCxZzIGrZPRN1yEdZ9xUNPNsIO5thBHIdRNG+UGUG+Q==}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-win32-arm64@0.10.2':
-    resolution: {integrity: sha512-1+tGLyG0u5YYy0lev4ck7/0sd8xJ9SZde0dLut7qLDPZV5WVTV8x6OxNXUne/PGuHZyO1vK+txPQzzHOyXHGSw==}
-    cpu: [arm64]
-    os: [win32]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
-  '@yuku-codegen/binding-win32-x64@0.10.2':
-    resolution: {integrity: sha512-8a2SExRohRbwC0MY4VpOF0/RSckrJ2ASZqAor5/RYSJJaeadR93n10gZzcKT6pY9ukiSOIZCRKVRD2tH73T0qA==}
-    cpu: [x64]
-    os: [win32]
-    deprecated: yuku-codegen is pure JavaScript since 0.14
-
   '@yuku-core/binding-android-arm64@0.19.0':
     resolution: {integrity: sha512-wdL2XmTiZixAOaHk9Z0JJZ8u9Qm8d333Zjpc6gaxXFX+UR5BlsfxZ7a2+2Rm71pamppsPYGUGFq2oVLbh6DISw==}
     cpu: [arm64]
@@ -10003,87 +9925,6 @@ packages:
     resolution: {integrity: sha512-o8iY/mXwlRkedp0LNTr4+TEfXTPQwoNZmv6k+1WIAd1ZXEn8xJJTBCtB0osaVvdZo/x/cNmV16UrWrrGpM5Mvw==}
     cpu: [x64]
     os: [win32]
-
-  '@yuku-parser/binding-android-arm64@0.10.2':
-    resolution: {integrity: sha512-2VPBU9fRGRAQ2xPAvghnec3oou5Nrxm2Bezhf+13UMspAxQSkF/32r+ySKXSwIPA5/RivumDJDxAxc301Sgicw==}
-    cpu: [arm64]
-    os: [android]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-darwin-arm64@0.10.2':
-    resolution: {integrity: sha512-LD+PMZE51tCYTOss5HBkm3/AE39MvcMDBfWJx7A4yDcjfNbAQDnHZKtzSOuqrswx+TQHY0ws5xn6+fWOwtmfBA==}
-    cpu: [arm64]
-    os: [darwin]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-darwin-x64@0.10.2':
-    resolution: {integrity: sha512-mmZ8cND+AoIIMRERyMinlg5ApHxP23B9jH2B5wT7T+dliPa9rubLxneB/SUjFwyUjGaFnB5G7t4YvpfbO5zbkQ==}
-    cpu: [x64]
-    os: [darwin]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-freebsd-x64@0.10.2':
-    resolution: {integrity: sha512-gVIjaaIddbRfAhHlC8N809wQWml7mxfSVnzaLtzGXObTeFTPAg/YVnQXt1UOhPM1ah5eG/8Y0RUlNpB4GVe7eQ==}
-    cpu: [x64]
-    os: [freebsd]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-arm-gnu@0.10.2':
-    resolution: {integrity: sha512-q/XPPQQAPdlw05aPj30ygBhekmQryGOwxVraBgApjKK8yY1kNQgqq6XCYLF1WHSee+lhxclrTO7W0/bt7dR1GA==}
-    cpu: [arm]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-arm-musl@0.10.2':
-    resolution: {integrity: sha512-A+Cb0I1hFF4wilTQpWs79k1aNnj4B2tkrHx3zsuUNF9BtVY2zPZ4yeQEM/zjXrS/qJlNMZVK9NrWJjwdpnTrfg==}
-    cpu: [arm]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-arm64-gnu@0.10.2':
-    resolution: {integrity: sha512-aGNSzqIqqphFwAdIFwVvKIyXD1Iy3CxrEJVIZAT87Ecyi4vCmmDD2v2l9h+Gd3/wSy3JZlOI792LJbKAjyy9rQ==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-arm64-musl@0.10.2':
-    resolution: {integrity: sha512-Ddl1sF0rtuCXyHGSOV6dcmdx+ETv1iD+IVFqQuOjzkJZWclxJxdBWX6ZJMRtTiGqGUTbqLEKiTXxpR/Bvqk+2A==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-x64-gnu@0.10.2':
-    resolution: {integrity: sha512-/nlcpR6IF5U+0m5L9wvAIXeQa2DT+BXuvqKDsTcOTlcc0B4dHNyqE5hTXsS4hAyimpy2ZK8A1zMNF5hTrjg2cg==}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-linux-x64-musl@0.10.2':
-    resolution: {integrity: sha512-GX80dxTQD/M/OryyuxJcFzFENzry3cDFPvCFTyWogNWQH3fSHfMrNfpwpl1YzMos1eV9NygK5GSDG7VArQlb4w==}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-win32-arm64@0.10.2':
-    resolution: {integrity: sha512-agePQBV4VHewiGU0ACSjscZ/hJd283f9JfAF19Gf1rI5+wy5tTgx4GS36i0b3xim15AQ4RCpDRosEvhLZ4zAOw==}
-    cpu: [arm64]
-    os: [win32]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-parser/binding-win32-x64@0.10.2':
-    resolution: {integrity: sha512-s8//CMpgL5+y1lvDCdyh1rwGI5+ytDJywFJRe1vnhI7n0j+caxshNucurikYLLVeQ2SYFex6aPrzgQxkabBQRA==}
-    cpu: [x64]
-    os: [win32]
-    deprecated: yuku-parser runs on yuku-core since 0.14
-
-  '@yuku-toolchain/types@0.10.2':
-    resolution: {integrity: sha512-sSeo4SSSToiS+sSD+bwn/s94EEcaLJ7tG5LCp8gFYC1G5VzxzX7fqB6m9RU1yMD8KTpu6zdU/I1NlQf8hVBJ9Q==}
 
   '@yuku-toolchain/types@0.19.0':
     resolution: {integrity: sha512-tFkNbsP4WXX9UMUC5syJGdK9dPMLK0PPaIuXCcCYH75sZ8MrebfBZ2XvCILRTw8AgLivSSCfDa4R67iYBDa4Kg==}
@@ -10549,6 +10390,10 @@ packages:
 
   cac@7.0.1:
     resolution: {integrity: sha512-86diuUyeeWM8CrqhpGCaDafrzjS1s++7sWy2AbAPoFNz/xKv7ID57CR4pZsMuGCh60PtsnEx4z68b+Vgt07VPw==}
+    engines: {node: '>=20.19.0'}
+
+  cac@7.1.0:
+    resolution: {integrity: sha512-LMDU/U2yA4IPIY8KT0NsNPWEYZvAMkbgyspxJ6btJaYV+WMDOHAZCmB0lsTObiHaRS1V/ztKAl7+TSkTqXyeoA==}
     engines: {node: '>=20.19.0'}
 
   cache-manager@7.2.9:
@@ -14280,6 +14125,11 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
+  prettier@3.9.10:
+    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   prettier@3.9.9:
     resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
     engines: {node: '>=14'}
@@ -14903,8 +14753,8 @@ packages:
   robot3@0.4.1:
     resolution: {integrity: sha512-hzjy826lrxzx8eRgv80idkf8ua1JAepRc9Efdtj03N3KNJuznQCPlyCJ7gnUmDFwZCLQjxy567mQVKmdv2BsXQ==}
 
-  rolldown-plugin-dts@0.28.6:
-    resolution: {integrity: sha512-qKrFtBfRfR2hP233m7Ic9zf3wv6MSYdZghWKMdEO6dRYZGlNfINJAa1P5ZVvyHh3mrcd7IJQvIY8L9vnm+v5rQ==}
+  rolldown-plugin-dts@0.28.8:
+    resolution: {integrity: sha512-FVhfqxorCWcc20BVT5eVRfRjzLLl6mgzjcMR4gSBf0K4oQMXT0qoHhhzfXy0L7y83fQy7Ug5ZDNk90xM3/LiCQ==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       '@typescript/native-preview': '*'
@@ -15690,14 +15540,14 @@ packages:
     resolution: {integrity: sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==}
     engines: {node: '>=6'}
 
-  tsdown@0.23.0:
-    resolution: {integrity: sha512-BaT+ep1xnj5hdyICLd5r5SYYE+TXnI1ATePLykv9vcKpHpFTWUWRH+x1AF/E2qcu3YB6+vI8IdyxIIIffEqw5Q==}
+  tsdown@0.23.1:
+    resolution: {integrity: sha512-MSC2WSOts3in95J334/VIS7KPfor3eCSvndJ6KdoVj9Aak9Kh1aNfz9ws5owhdukuTNSXRdfkPEzA/ihpDD6SA==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.23.0
-      '@tsdown/exe': 0.23.0
+      '@tsdown/css': 0.23.1
+      '@tsdown/exe': 0.23.1
       '@vitejs/devtools': '*'
       publint: ^0.3.8
       tsx: ^4.23.15
@@ -16051,8 +15901,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  verkit@0.4.1:
-    resolution: {integrity: sha512-mMVzj0TXExtVdlDEq+Mzp0eyOuyznNpFobNM3uAqe3HVm/Ps2c+u17BligMkZjZCA6EiXpoon8iRTer3iu40SQ==}
+  verkit@0.5.0:
+    resolution: {integrity: sha512-u4J1hr6Y+C/hit34GwL3eIcUf3wngT8TlYUjK7tk0jxydKLAq3sYvifjdTDA6U3KCKRcQCQDGf/srjxfZF3l7g==}
     engines: {node: '>=18.12.0'}
 
   version-range@4.15.0:
@@ -16460,18 +16310,17 @@ packages:
   yoga-layout@3.2.1:
     resolution: {integrity: sha512-0LPOt3AxKqMdFBZA3HBAt/t/8vIKq7VaQYbuA8WxCgung+p9TVyKRYdpvCb80HcdTN2NkbIKbhNwKUfm3tQywQ==}
 
-  yuku-ast@0.10.2:
-    resolution: {integrity: sha512-UnG9mA6giglCvSErft2/40TVFX750Sj1xgwddPLpG7J7rlr/P1wPADg9G2RK+d/1tNLtRVoLdMMOMVBB9561TQ==}
+  yuku-ast@0.19.0:
+    resolution: {integrity: sha512-PyCsiScaelhxBGzL8dyeJkLqvRZycoh78R31Vrt/WqYrm0hMFoKwIw/X7Dx5mBKLWAMlV9I9HEyBOHnj2gZVyw==}
+    engines: {node: '>=14.18.0'}
 
-  yuku-codegen@0.10.2:
-    resolution: {integrity: sha512-hentl2dtrF6cPjiAirtkfxfFZBA6Hdm61UqRJ7cA0qrlDNMk9PZGOjw5w1mx3E0hu/6pHcJF4dJW+D0SXHPZOA==}
+  yuku-codegen@0.19.0:
+    resolution: {integrity: sha512-uymAKHjDuaP4BEpkXC/BSLz4DUEF5oArZ5AuD3888nb2miChjWSgpPdojEJxm3pjpXkgUaCRJQyNAbnMN33wHg==}
+    engines: {node: '>=14.18.0'}
 
   yuku-core@0.19.0:
     resolution: {integrity: sha512-kYK9e1XdfirNhkipzW0wmMcSWcVF/CWnuugodfVYRCUwvoBefweL9HzB96OiKEhsx78V5WbUxbJqlizMX869Qg==}
     engines: {node: '>=14.18.0'}
-
-  yuku-parser@0.10.2:
-    resolution: {integrity: sha512-CgaU0/PPjCAIEZ3WQroosOxTY3eeKldAN3h+vk8pMNz4+jl1CZzBR4pW+K/rRPF112VooCL5FdjJoiMNjDrL2A==}
 
   yuku-parser@0.19.0:
     resolution: {integrity: sha512-XrBh9ZiQK5mJVRxZBAvD6LwRyAYrK3MFtH3+onyuxFL5hFD44EC3QOmIC1FjTj6H2MMwq46/NAI+NZxLZPZgxg==}
@@ -16504,8 +16353,8 @@ packages:
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
-  zod@4.6.5:
-    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
   zustand@5.0.15:
     resolution: {integrity: sha512-MpSEjRiBkA9crSYeOUH32rJC7SVqAbm0Fqcqge/bUi2PPoLcBWKOsG+C8mevmpr8TwXHBVkChbbJiyvkE+i/3A==}
@@ -16531,20 +16380,20 @@ snapshots:
 
   '@adobe/css-tools@4.5.0': {}
 
-  '@ai-sdk/gateway@3.0.203(zod@4.6.5)':
+  '@ai-sdk/gateway@3.0.203(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.55(zod@4.6.5)
+      '@ai-sdk/provider-utils': 4.0.55(zod@4.6.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.6.5
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@4.0.55(zod@4.6.5)':
+  '@ai-sdk/provider-utils@4.0.55(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.1.1
       undici: 6.29.0
-      zod: 4.6.5
+      zod: 4.6.6
 
   '@ai-sdk/provider@3.0.18':
     dependencies:
@@ -16588,11 +16437,11 @@ snapshots:
   '@anthropic-ai/claude-agent-sdk-win32-x64@0.2.141':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.2.141(supports-color@10.2.2)(zod@4.6.5)':
+  '@anthropic-ai/claude-agent-sdk@0.2.141(supports-color@10.2.2)(zod@4.6.6)':
     dependencies:
-      '@anthropic-ai/sdk': 0.93.0(zod@4.6.5)
-      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.5)
-      zod: 4.6.5
+      '@anthropic-ai/sdk': 0.93.0(zod@4.6.6)
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.6)
+      zod: 4.6.6
     optionalDependencies:
       '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.2.141
       '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.2.141
@@ -16607,17 +16456,17 @@ snapshots:
       - supports-color
     optional: true
 
-  '@anthropic-ai/sdk@0.78.0(zod@4.6.5)':
+  '@anthropic-ai/sdk@0.78.0(zod@4.6.6)':
     dependencies:
       json-schema-to-ts: 3.1.1
     optionalDependencies:
-      zod: 4.6.5
+      zod: 4.6.6
 
-  '@anthropic-ai/sdk@0.93.0(zod@4.6.5)':
+  '@anthropic-ai/sdk@0.93.0(zod@4.6.6)':
     dependencies:
       json-schema-to-ts: 3.1.1
     optionalDependencies:
-      zod: 4.6.5
+      zod: 4.6.6
     optional: true
 
   '@apidevtools/json-schema-ref-parser@15.5.2(@types/json-schema@7.0.15)':
@@ -17007,7 +16856,7 @@ snapshots:
       - supports-color
     optional: true
 
-  '@azure/ai-projects@1.0.1(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)':
+  '@azure/ai-projects@1.0.1(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)':
     dependencies:
       '@azure-rest/core-client': 2.9.0(supports-color@10.2.2)
       '@azure/abort-controller': 2.2.0
@@ -17021,7 +16870,7 @@ snapshots:
       '@azure/core-util': 1.14.0(supports-color@10.2.2)
       '@azure/logger': 1.4.0(supports-color@10.2.2)
       '@azure/storage-blob': 12.34.0(supports-color@10.2.2)
-      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5)
+      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
@@ -18938,7 +18787,7 @@ snapshots:
       '@clack/prompts': 1.8.1
       '@manypkg/get-packages': 3.1.0
       '@pnpm/deps.graph-sequencer': 1100.0.1
-      cac: 7.0.1
+      cac: 7.1.0
       import-meta-resolve: 4.2.0
       launch-editor: 2.14.1
       package-manager-detector: 1.9.0
@@ -19198,7 +19047,7 @@ snapshots:
     dependencies:
       '@standard-schema/spec': 1.1.0
       destr: 2.0.5
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       nostics: 1.3.0
       pathe: 2.0.3
       perfect-debounce: 2.1.0
@@ -19207,18 +19056,18 @@ snapshots:
 
   '@devframes/json-render@0.8.2(@devframes/hub@0.8.2)(devframe@0.8.2)':
     dependencies:
-      '@json-render/core': 0.19.0(zod@4.6.5)
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      '@json-render/core': 0.19.0(zod@4.6.6)
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       nostics: 1.3.0
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       '@devframes/hub': 0.8.2(devframe@0.8.2)
 
   '@devframes/plugin-inspect@0.8.2(devframe@0.8.2)(valibot@1.5.0)(vite@8.3.4)':
     dependencies:
       '@valibot/to-json-schema': 1.8.0(valibot@1.5.0)
-      cac: 7.0.1
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      cac: 7.1.0
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       nostics: 1.3.0
     optionalDependencies:
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
@@ -19228,16 +19077,16 @@ snapshots:
   '@devframes/plugin-messages@0.8.2(@devframes/hub@0.8.2)(devframe@0.8.2)(vite@8.3.4)':
     dependencies:
       '@devframes/hub': 0.8.2(devframe@0.8.2)
-      cac: 7.0.1
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      cac: 7.1.0
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       nostics: 1.3.0
     optionalDependencies:
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
 
   '@devframes/plugin-terminals@0.8.2(devframe@0.8.2)(vite@8.3.4)':
     dependencies:
-      cac: 7.0.1
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      cac: 7.1.0
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       nostics: 1.3.0
       zigpty: 0.2.1
     optionalDependencies:
@@ -20201,9 +20050,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@json-render/core@0.19.0(zod@4.6.5)':
+  '@json-render/core@0.19.0(zod@4.6.6)':
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.6
 
   '@keyv/bigmap@1.3.1(keyv@5.6.0)':
     dependencies:
@@ -20356,7 +20205,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.17.1': {}
 
-  '@modelcontextprotocol/sdk@1.30.1(supports-color@10.2.2)(zod@4.6.5)':
+  '@modelcontextprotocol/sdk@1.30.1(supports-color@10.2.2)(zod@4.6.6)':
     dependencies:
       '@hono/node-server': 2.1.1(hono@4.13.9)
       ajv: 8.20.0
@@ -20373,8 +20222,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.6.5
-      zod-to-json-schema: 3.25.2(zod@4.6.5)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -20674,13 +20523,13 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@openai/agents-core@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)':
+  '@openai/agents-core@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)':
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
-      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5)
+      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6)
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.5)
-      zod: 4.6.5
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@cfworker/json-schema'
@@ -20689,12 +20538,12 @@ snapshots:
       - supports-color
       - ws
 
-  '@openai/agents-openai@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)':
+  '@openai/agents-openai@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
+      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
       debug: 4.4.3(supports-color@10.2.2)
-      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5)
-      zod: 4.6.5
+      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@cfworker/json-schema'
@@ -20703,13 +20552,13 @@ snapshots:
       - supports-color
       - ws
 
-  '@openai/agents-realtime@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(zod@4.6.5)':
+  '@openai/agents-realtime@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
+      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
       '@types/ws': 8.18.1
       debug: 4.4.3(supports-color@10.2.2)
       ws: 8.22.0
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@cfworker/json-schema'
@@ -20719,14 +20568,14 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@openai/agents@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)':
+  '@openai/agents@0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
-      '@openai/agents-openai': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
-      '@openai/agents-realtime': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(zod@4.6.5)
+      '@openai/agents-core': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
+      '@openai/agents-openai': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
+      '@openai/agents-realtime': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(zod@4.6.6)
       debug: 4.4.3(supports-color@10.2.2)
-      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5)
-      zod: 4.6.5
+      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@cfworker/json-schema'
@@ -22012,7 +21861,7 @@ snapshots:
       '@google-cloud/storage': 7.22.0(supports-color@10.2.2)
       '@googleapis/drive': 20.2.0(supports-color@10.2.2)
       '@inquirer/prompts': 8.7.2(@types/node@24.19.0)
-      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.5)
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.6)
       '@portabletext/markdown': 1.5.0
       '@sanity/client': 7.27.0
       ajv: 8.20.0
@@ -22025,7 +21874,7 @@ snapshots:
       js-yaml: 4.3.2
       oxc-parser: 0.129.0
       promptfoo: 0.120.27(@aws-sdk/credential-provider-node@3.972.84)(@noble/hashes@2.4.0)(@smithy/signature-v4@5.7.4)(@types/json-schema@7.0.15)(@types/node@24.19.0)(@types/react@19.3.0)(babel-plugin-macros@3.1.0)(debug@4.4.3)(pg@8.23.0)(playwright-core@1.63.0)(socks@2.8.10)(supports-color@10.2.2)
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
       - '@aws-sdk/credential-provider-node'
@@ -22131,7 +21980,7 @@ snapshots:
       react-is: 19.3.0
       semver: 7.8.5
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       oxc-transform-react: 0.153.0
       sanity: 6.19.0-next.78(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react-dom@19.3.0)(@types/react@19.3.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(immer@11.1.18)(jiti@2.7.0)(oxc-transform-react@0.153.0)(oxfmt@0.72.0)(react-dom@19.3.0)(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)
@@ -22186,7 +22035,7 @@ snapshots:
       react-is: 19.3.0
       semver: 7.8.5
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       sanity: 6.19.0-next.78(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react-dom@19.3.0)(@types/react@19.3.0)(esbuild@0.28.2)(immer@11.1.18)(jiti@2.7.0)(oxfmt@0.72.0)(react-dom@19.3.0)(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3)(supports-color@8.1.1)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)
     transitivePeerDependencies:
@@ -22234,7 +22083,7 @@ snapshots:
       rxjs: 7.8.2
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
       wrap-ansi: 9.0.2
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       oxc-transform-react: 0.153.0
     transitivePeerDependencies:
@@ -22317,9 +22166,109 @@ snapshots:
       which: 6.0.1
       wrap-ansi: 9.0.2
       yaml: 2.9.1
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       oxc-transform-react: 0.153.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/plugin-transform-runtime'
+      - '@babel/runtime'
+      - '@noble/hashes'
+      - '@rolldown/plugin-babel'
+      - '@sanity/workflow-blueprint'
+      - '@types/node'
+      - '@types/react'
+      - '@vitejs/devtools'
+      - bare-abort-controller
+      - bare-buffer
+      - bufferutil
+      - canvas
+      - esbuild
+      - jiti
+      - less
+      - oxfmt
+      - react
+      - react-native-b4a
+      - rolldown
+      - sanity
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - utf-8-validate
+      - vitest
+      - vue-tsc
+      - xstate
+
+  '@sanity/cli@8.16.0(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react@19.3.0)(esbuild@0.28.2)(jiti@2.7.0)(oxfmt@0.72.0)(react@19.3.0)(rolldown@1.2.13)(sanity@6.19.0-next.78)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(xstate@5.33.2)':
+    dependencies:
+      '@oclif/core': 4.14.0
+      '@oclif/plugin-help': 6.3.0
+      '@oclif/plugin-not-found': 3.3.0(@types/node@24.19.0)
+      '@sanity/cli-build': 6.4.5(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@types/node@24.19.0)(@types/react@19.3.0)(esbuild@0.28.2)(jiti@2.7.0)(rolldown@1.2.13)(sanity@6.19.0-next.78)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(yaml@2.9.1)
+      '@sanity/cli-core': 3.9.0(@noble/hashes@2.4.0)(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(oxc-transform-react@0.153.0)(tsx@4.23.15)(vitest@4.1.11)(yaml@2.9.1)
+      '@sanity/client': 8.9.0(vitest@4.1.11)
+      '@sanity/codegen': 8.2.0(oxfmt@0.72.0)(react@19.3.0)(supports-color@10.2.2)(typescript@7.0.2)
+      '@sanity/descriptors': 1.3.0
+      '@sanity/export': 6.2.1(supports-color@10.2.2)
+      '@sanity/generate-help-url': 4.0.0
+      '@sanity/id-utils': 1.1.0
+      '@sanity/import': 7.0.4(@sanity/client@8.9.0)(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/migrate': 8.0.5(@types/react@19.3.0)(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/runtime-cli': 17.15.0(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@types/node@24.19.0)(@types/react@19.3.0)(esbuild@0.28.2)(rolldown@1.2.13)(sanity@6.19.0-next.78)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(yaml@2.9.1)
+      '@sanity/schema': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/schema-descriptor-utils': 1.3.3
+      '@sanity/telemetry': 1.1.0(react@19.3.0)
+      '@sanity/template-validator': 3.1.1
+      '@sanity/types': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/workbench-cli': 2.8.4(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(@types/react@19.3.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(oxc-transform-react@0.153.0)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(yaml@2.9.1)
+      '@sanity/worker-channels': 2.0.0
+      '@sanity/workflow-cli': 0.36.0(@sanity/cli-core@3.9.0)(@sanity/workflow-blueprint@0.36.0)(@sanity/workflow-engine@0.36.0)(react@19.3.0)
+      '@sanity/workflow-engine': 0.36.0(@types/react@19.3.0)(supports-color@10.2.2)(typescript@7.0.2)(vitest@4.1.11)
+      '@vercel/frameworks': 3.29.0
+      chokidar: 5.0.0
+      console-table-printer: 2.16.1
+      eventsource: 5.1.2
+      execa: 10.0.1
+      form-data: 4.0.6
+      get-latest-version: 6.0.1
+      groq-js: 2.0.0
+      gunzip-maybe: 1.4.2
+      import-meta-resolve: 4.2.0
+      is-installed-globally: 1.0.1
+      json5: 2.2.3
+      jsonc-parser: 3.3.1
+      lodash-es: 4.18.1
+      minimist: 1.2.8
+      obug: 3.0.0
+      oneline: 2.0.0
+      open: 11.0.4
+      p-map: 7.0.8
+      peek-stream: 1.1.3
+      picomatch: 4.0.7
+      pluralize-esm: 9.0.5
+      pretty-ms: 9.3.1
+      promise-props-recursive: 2.0.2
+      rxjs: 7.8.2
+      semver: 7.8.5
+      skills: 1.7.0
+      smol-toml: 1.9.0
+      string-argv: 0.3.2
+      string-width: 7.2.0
+      tar: 7.5.22
+      tar-stream: 3.2.1
+      tinyglobby: 0.2.17
+      typeid-js: 1.2.0
+      valibot: 1.5.0(typescript@7.0.2)
+      vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
+      which: 6.0.1
+      wrap-ansi: 9.0.2
+      yaml: 2.9.1
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/plugin-transform-runtime'
@@ -22419,7 +22368,7 @@ snapshots:
       which: 6.0.1
       wrap-ansi: 9.0.2
       yaml: 2.9.1
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/plugin-transform-runtime'
@@ -22519,7 +22468,7 @@ snapshots:
       which: 6.0.1
       wrap-ansi: 9.0.2
       yaml: 2.9.1
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/plugin-transform-runtime'
@@ -22619,7 +22568,7 @@ snapshots:
       which: 6.0.1
       wrap-ansi: 9.0.2
       yaml: 2.9.1
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
       oxc-transform-react: 0.153.0
     transitivePeerDependencies:
@@ -22692,7 +22641,7 @@ snapshots:
       json5: 2.2.3
       lodash-es: 4.18.1
       obug: 3.0.0
-      prettier: 3.9.9
+      prettier: 3.9.10
       reselect: 5.3.0
       tsconfig-paths: 4.2.0
       valibot: 1.5.0(typescript@7.0.2)
@@ -22722,7 +22671,7 @@ snapshots:
       json5: 2.2.3
       lodash-es: 4.18.1
       obug: 3.0.0
-      prettier: 3.9.9
+      prettier: 3.9.10
       reselect: 5.3.0
       tsconfig-paths: 4.2.0
       valibot: 1.5.0(typescript@7.0.2)
@@ -22752,7 +22701,7 @@ snapshots:
       json5: 2.2.3
       lodash-es: 4.18.1
       obug: 3.0.0
-      prettier: 3.9.9
+      prettier: 3.9.10
       reselect: 5.3.0
       tsconfig-paths: 4.2.0
       valibot: 1.5.0(typescript@7.0.2)
@@ -22951,21 +22900,21 @@ snapshots:
       - '@types/react'
       - vitest
 
-  '@sanity/parse-package-json@2.3.5':
+  '@sanity/parse-package-json@2.3.6':
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.6
 
-  '@sanity/pkg-utils@13.0.8(@babel/runtime@7.29.7)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-resolver@11.24.2)(rolldown@1.2.13)(supports-color@5.5.0)(typescript@7.0.2)(vite@8.3.4)':
+  '@sanity/pkg-utils@13.0.9(@babel/runtime@7.29.7)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-resolver@11.24.2)(rolldown@1.2.13)(supports-color@5.5.0)(typescript@7.0.2)(vite@8.3.4)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@5.5.0)
       '@rolldown/plugin-babel': 0.2.4(@babel/core@7.29.7)(@babel/runtime@7.29.7)(rolldown@1.2.13)(vite@8.3.4)
       '@sanity/browserslist-config': 1.0.5
-      '@sanity/parse-package-json': 2.3.5
-      '@sanity/tsdown-config': 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)
+      '@sanity/parse-package-json': 2.3.6
+      '@sanity/tsdown-config': 0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)
       '@typescript/typescript6': 6.0.2
       browserslist: 4.29.3
       browserslist-to-esbuild: 2.1.1(browserslist@4.29.3)
-      cac: 7.0.1
+      cac: 7.1.0
       chalk: 6.0.1
       chokidar: 5.0.0
       empathic: 2.1.0
@@ -22974,17 +22923,17 @@ snapshots:
       globby: 16.2.4
       mkdirp: 3.0.1
       outdent: 0.8.0
-      prettier: 3.9.9
+      prettier: 3.9.10
       pretty-bytes: 7.2.0
       prompts: 2.4.2
       publint: 0.3.25
       rxjs: 7.8.2
       treeify: 1.1.0
-      tsdown: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+      tsdown: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
       tsx: 4.23.15
       typescript: 7.0.2
-      zod: 4.6.5
-      zod-validation-error: 5.0.0(zod@4.6.5)
+      zod: 4.6.6
+      zod-validation-error: 5.0.0(zod@4.6.6)
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@babel/plugin-transform-runtime'
@@ -23235,12 +23184,12 @@ snapshots:
 
   '@sanity/tsconfig@2.2.1': {}
 
-  '@sanity/tsdown-config@0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)':
+  '@sanity/tsdown-config@0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(oxc-transform-react@0.153.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)':
     dependencies:
       '@microsoft/api-extractor': 7.59.4(@types/node@24.19.0)
       '@microsoft/tsdoc-config': 0.18.3
       '@sanity/browserslist-config': 1.0.5
-      '@sanity/vanilla-extract-tsdown-plugin': 0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.0)
+      '@sanity/vanilla-extract-tsdown-plugin': 0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.1)
       '@typescript/typescript6': 6.0.2
       '@vitejs/plugin-react': 6.1.2(@rolldown/plugin-babel@0.2.4)(oxc-transform-react@0.153.0)(vite@8.3.4)
       browserslist: 4.29.3
@@ -23249,7 +23198,7 @@ snapshots:
       package-manager-detector: 1.9.0
       publint: 0.3.25
       rolldown: 1.2.13
-      tsdown: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+      tsdown: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
       typescript: 7.0.2
     optionalDependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
@@ -23260,12 +23209,12 @@ snapshots:
       - babel-plugin-macros
       - vite
 
-  '@sanity/tsdown-config@0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.0)(typescript@7.0.2)(vite@8.3.4)':
+  '@sanity/tsdown-config@0.28.8(@babel/core@7.29.7)(@rolldown/plugin-babel@0.2.4)(@types/node@24.19.0)(babel-plugin-macros@3.1.0)(tsdown@0.23.1)(typescript@7.0.2)(vite@8.3.4)':
     dependencies:
       '@microsoft/api-extractor': 7.59.4(@types/node@24.19.0)
       '@microsoft/tsdoc-config': 0.18.3
       '@sanity/browserslist-config': 1.0.5
-      '@sanity/vanilla-extract-tsdown-plugin': 0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.0)
+      '@sanity/vanilla-extract-tsdown-plugin': 0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.1)
       '@typescript/typescript6': 6.0.2
       '@vitejs/plugin-react': 6.1.2(@rolldown/plugin-babel@0.2.4)(oxc-transform-react@0.153.0)(vite@8.3.4)
       browserslist: 4.29.3
@@ -23274,7 +23223,7 @@ snapshots:
       package-manager-detector: 1.9.0
       publint: 0.3.25
       rolldown: 1.2.13
-      tsdown: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+      tsdown: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
       typescript: 7.0.2
     optionalDependencies:
       '@babel/core': 7.29.7(supports-color@5.5.0)
@@ -23371,10 +23320,10 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@sanity/vanilla-extract-tsdown-plugin@0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.0)':
+  '@sanity/vanilla-extract-tsdown-plugin@0.4.8(babel-plugin-macros@3.1.0)(rolldown@1.2.13)(tsdown@0.23.1)':
     dependencies:
       '@sanity/vanilla-extract-rolldown-plugin': 0.4.15(babel-plugin-macros@3.1.0)(rolldown@1.2.13)
-      tsdown: 0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
+      tsdown: 0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2)
     transitivePeerDependencies:
       - babel-plugin-macros
       - rolldown
@@ -23446,7 +23395,7 @@ snapshots:
       semver: 7.8.5
       tar: 7.5.22
       vite: 8.3.4(@types/node@24.19.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@noble/hashes'
       - '@rolldown/plugin-babel'
@@ -24741,7 +24690,7 @@ snapshots:
       tar-stream: 3.1.7
       undici: 7.30.0
       xdg-app-paths: 5.1.0
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - bare-abort-controller
       - react-native-b4a
@@ -24803,11 +24752,11 @@ snapshots:
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
-  '@vitejs/devtools-kit@0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)':
+  '@vitejs/devtools-kit@0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)':
     dependencies:
       '@devframes/hub': 0.8.2(devframe@0.8.2)
       '@devframes/json-render': 0.8.2(@devframes/hub@0.8.2)(devframe@0.8.2)
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       local-pkg: 1.2.1
       mlly: 1.8.2
       nostics: 1.3.0
@@ -24823,9 +24772,9 @@ snapshots:
   '@vitejs/devtools-oxc@0.4.12(srvx@1.0.5)(vite@8.3.4)':
     dependencies:
       '@oxlint-config-inspector/core': 1.1.4
-      '@vitejs/devtools-kit': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
-      cac: 7.0.1
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      '@vitejs/devtools-kit': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
+      cac: 7.1.0
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       local-pkg: 1.2.1
       nostics: 1.3.0
       pathe: 2.0.3
@@ -24837,11 +24786,11 @@ snapshots:
       - srvx
       - vite
 
-  '@vitejs/devtools-rolldown@0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)':
+  '@vitejs/devtools-rolldown@0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)':
     dependencies:
       '@floating-ui/dom': 1.8.0
       '@rolldown/debug': 1.2.11
-      '@vitejs/devtools-kit': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
+      '@vitejs/devtools-kit': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
       d3-shape: 3.2.0
       diff: 9.0.0
       nostics: 1.3.0
@@ -24856,10 +24805,10 @@ snapshots:
       - vite
       - vue
 
-  '@vitejs/devtools-vite@0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)':
+  '@vitejs/devtools-vite@0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)':
     dependencies:
       '@floating-ui/dom': 1.8.0
-      '@vitejs/devtools-kit': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
+      '@vitejs/devtools-kit': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
       d3-shape: 3.2.0
       envinfo: 7.21.0
       nostics: 1.3.0
@@ -24879,10 +24828,10 @@ snapshots:
       '@devframes/plugin-inspect': 0.8.2(devframe@0.8.2)(valibot@1.5.0)(vite@8.3.4)
       '@devframes/plugin-messages': 0.8.2(@devframes/hub@0.8.2)(devframe@0.8.2)(vite@8.3.4)
       '@devframes/plugin-terminals': 0.8.2(devframe@0.8.2)(vite@8.3.4)
-      '@vitejs/devtools-kit': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
+      '@vitejs/devtools-kit': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
       birpc: 4.2.0
-      cac: 7.0.1
-      devframe: 0.8.2(cac@7.0.1)(srvx@1.0.5)
+      cac: 7.1.0
+      devframe: 0.8.2(cac@7.1.0)(srvx@1.0.5)
       h3: 2.0.1-rc.22(crossws@0.4.12)
       local-pkg: 1.2.1
       mlly: 1.8.2
@@ -24893,8 +24842,8 @@ snapshots:
       vue: 3.5.43(typescript@7.0.2)
     optionalDependencies:
       '@vitejs/devtools-oxc': 0.4.12(srvx@1.0.5)(vite@8.3.4)
-      '@vitejs/devtools-rolldown': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)
-      '@vitejs/devtools-vite': 0.4.12(cac@7.0.1)(srvx@1.0.5)(vite@8.3.4)
+      '@vitejs/devtools-rolldown': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)(vue@3.5.43)
+      '@vitejs/devtools-vite': 0.4.12(cac@7.1.0)(srvx@1.0.5)(vite@8.3.4)
     transitivePeerDependencies:
       - '@modelcontextprotocol/client'
       - '@modelcontextprotocol/server'
@@ -25091,42 +25040,6 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@yuku-codegen/binding-android-arm64@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-darwin-arm64@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-darwin-x64@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-freebsd-x64@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-arm-gnu@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-arm-musl@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-arm64-gnu@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-arm64-musl@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-x64-gnu@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-linux-x64-musl@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-win32-arm64@0.10.2':
-    optional: true
-
-  '@yuku-codegen/binding-win32-x64@0.10.2':
-    optional: true
-
   '@yuku-core/binding-android-arm64@0.19.0':
     optional: true
 
@@ -25162,44 +25075,6 @@ snapshots:
 
   '@yuku-core/binding-win32-x64@0.19.0':
     optional: true
-
-  '@yuku-parser/binding-android-arm64@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-darwin-arm64@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-darwin-x64@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-freebsd-x64@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-arm-gnu@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-arm-musl@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-arm64-gnu@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-arm64-musl@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-x64-gnu@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-linux-x64-musl@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-win32-arm64@0.10.2':
-    optional: true
-
-  '@yuku-parser/binding-win32-x64@0.10.2':
-    optional: true
-
-  '@yuku-toolchain/types@0.10.2': {}
 
   '@yuku-toolchain/types@0.19.0': {}
 
@@ -25260,13 +25135,13 @@ snapshots:
 
   agent-base@7.1.4: {}
 
-  ai@6.0.293(zod@4.6.5):
+  ai@6.0.293(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 3.0.203(zod@4.6.5)
+      '@ai-sdk/gateway': 3.0.203(zod@4.6.6)
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.55(zod@4.6.5)
+      '@ai-sdk/provider-utils': 4.0.55(zod@4.6.6)
       '@opentelemetry/api': 1.9.1
-      zod: 4.6.5
+      zod: 4.6.6
 
   ajv-draft-04@1.0.0(ajv@8.20.0):
     optionalDependencies:
@@ -25689,6 +25564,8 @@ snapshots:
   bytes@3.1.2: {}
 
   cac@7.0.1: {}
+
+  cac@7.1.0: {}
 
   cache-manager@7.2.9:
     dependencies:
@@ -26334,7 +26211,7 @@ snapshots:
   detect-node@2.1.0:
     optional: true
 
-  devframe@0.8.2(cac@7.0.1)(srvx@1.0.5):
+  devframe@0.8.2(cac@7.1.0)(srvx@1.0.5):
     dependencies:
       '@standard-schema/spec': 1.1.0
       birpc: 4.2.0
@@ -26346,7 +26223,7 @@ snapshots:
       pathe: 2.0.3
       ufo: 1.6.4
     optionalDependencies:
-      cac: 7.0.1
+      cac: 7.1.0
     transitivePeerDependencies:
       - ocache
       - srvx
@@ -28329,7 +28206,7 @@ snapshots:
       tinyglobby: 0.2.17
       unbash: 4.0.11
       yaml: 2.9.1
-      zod: 4.6.5
+      zod: 4.6.6
 
   kuler@2.0.0: {}
 
@@ -29093,12 +28970,12 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openai@6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5):
+  openai@6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6):
     optionalDependencies:
       '@aws-sdk/credential-provider-node': 3.972.84
       '@smithy/signature-v4': 5.7.4
       ws: 8.22.0
-      zod: 4.6.5
+      zod: 4.6.6
 
   openapi-fetch@0.8.2:
     dependencies:
@@ -29739,7 +29616,10 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.9: {}
+  prettier@3.9.10: {}
+
+  prettier@3.9.9:
+    optional: true
 
   pretty-bytes@6.1.1: {}
 
@@ -29775,7 +29655,7 @@ snapshots:
 
   promptfoo@0.120.27(@aws-sdk/credential-provider-node@3.972.84)(@noble/hashes@2.4.0)(@smithy/signature-v4@5.7.4)(@types/json-schema@7.0.15)(@types/node@24.19.0)(@types/react@19.3.0)(babel-plugin-macros@3.1.0)(debug@4.4.3)(pg@8.23.0)(playwright-core@1.63.0)(socks@2.8.10)(supports-color@10.2.2):
     dependencies:
-      '@anthropic-ai/sdk': 0.78.0(zod@4.6.5)
+      '@anthropic-ai/sdk': 0.78.0(zod@4.6.6)
       '@apidevtools/json-schema-ref-parser': 15.5.2(@types/json-schema@7.0.15)
       '@googleapis/sheets': 13.0.2(supports-color@10.2.2)
       '@inquirer/checkbox': 5.2.5(@types/node@24.19.0)
@@ -29784,8 +29664,8 @@ snapshots:
       '@inquirer/editor': 5.3.3(@types/node@24.19.0)
       '@inquirer/input': 5.1.6(@types/node@24.19.0)
       '@inquirer/select': 5.2.5(@types/node@24.19.0)
-      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.5)
-      '@openai/agents': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@10.2.2)(zod@4.6.6)
+      '@openai/agents': 0.5.4(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
       '@opencode-ai/sdk': 1.18.32
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.11.0(@opentelemetry/api@1.9.1)
@@ -29795,7 +29675,7 @@ snapshots:
       '@opentelemetry/sdk-trace-node': 2.11.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.43.0
       '@types/ws': 8.18.1
-      ai: 6.0.293(zod@4.6.5)
+      ai: 6.0.293(zod@4.6.6)
       ajv: 8.20.0
       ajv-formats: 3.0.1(ajv@8.20.0)
       async: 3.2.6
@@ -29837,7 +29717,7 @@ snapshots:
       mathjs: 15.2.0
       minimatch: 10.2.6
       nunjucks: 3.2.4(chokidar@5.0.0)
-      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.5)
+      openai: 6.49.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(ws@8.22.0)(zod@4.6.6)
       opener: 1.5.2
       ora: 9.4.1
       pem: 1.14.8
@@ -29858,15 +29738,15 @@ snapshots:
       undici: 7.30.0
       winston: 3.19.0
       ws: 8.22.0
-      zod: 4.6.5
+      zod: 4.6.6
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.2.141(supports-color@10.2.2)(zod@4.6.5)
+      '@anthropic-ai/claude-agent-sdk': 0.2.141(supports-color@10.2.2)(zod@4.6.6)
       '@aws-sdk/client-bedrock-agent-runtime': 3.1141.0
       '@aws-sdk/client-bedrock-runtime': 3.1141.0
       '@aws-sdk/client-s3': 3.1141.0
       '@aws-sdk/client-sagemaker-runtime': 3.1141.0
       '@aws-sdk/credential-provider-sso': 3.973.16
-      '@azure/ai-projects': 1.0.1(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.5)
+      '@azure/ai-projects': 1.0.1(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(supports-color@10.2.2)(ws@8.22.0)(zod@4.6.6)
       '@azure/identity': 4.13.3(supports-color@10.2.2)
       '@azure/msal-node': 5.6.0
       '@azure/openai-assistants': 1.0.0-beta.6(supports-color@10.2.2)
@@ -30592,15 +30472,15 @@ snapshots:
   robot3@0.4.1:
     optional: true
 
-  rolldown-plugin-dts@0.28.6(oxc-resolver@11.24.2)(rolldown@1.2.13)(typescript@7.0.2):
+  rolldown-plugin-dts@0.28.8(oxc-resolver@11.24.2)(rolldown@1.2.13)(typescript@7.0.2):
     dependencies:
       dts-resolver: 3.0.0(oxc-resolver@11.24.2)
       get-tsconfig: 5.0.0-beta.6
       obug: 3.0.0
       rolldown: 1.2.13
-      yuku-ast: 0.10.2
-      yuku-codegen: 0.10.2
-      yuku-parser: 0.10.2
+      yuku-ast: 0.19.0
+      yuku-codegen: 0.19.0
+      yuku-parser: 0.19.0
     optionalDependencies:
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -30709,7 +30589,7 @@ snapshots:
       async-retry: 1.3.3
       debug: 4.4.3(supports-color@10.2.2)
       ws: 8.22.0
-      zod: 4.6.5
+      zod: 4.6.6
     transitivePeerDependencies:
       - bare-abort-controller
       - bufferutil
@@ -30746,6 +30626,159 @@ snapshots:
       '@sanity/asset-utils': 2.3.0
       '@sanity/bifur-client': 2.0.2
       '@sanity/cli': 8.16.0(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react@19.3.0)(@vitejs/devtools@0.4.12)(esbuild@0.28.2)(jiti@2.7.0)(oxc-transform-react@0.153.0)(oxfmt@0.72.0)(react@19.3.0)(rolldown@1.2.13)(sanity@6.19.0-next.78)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/client': 8.9.0(vitest@4.1.11)
+      '@sanity/color': 3.0.9
+      '@sanity/comlink': 4.0.3
+      '@sanity/diff': 6.19.0-next.78
+      '@sanity/diff-match-patch': 3.2.1
+      '@sanity/diff-patch': 7.0.0
+      '@sanity/eventsource': 5.0.4
+      '@sanity/generate-help-url': 4.0.0
+      '@sanity/icons': 5.2.3(react@19.3.0)
+      '@sanity/id-utils': 1.1.0
+      '@sanity/image-url': 2.1.1
+      '@sanity/logos': 2.2.6(react@19.3.0)
+      '@sanity/media-library-types': 1.7.1(@sanity/types@6.19.0-next.78)
+      '@sanity/message-protocol': 0.24.0
+      '@sanity/migrate': 8.0.5(@types/react@19.3.0)(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/mutate': 0.18.2(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/mutator': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/presentation-comlink': 2.2.3(@sanity/types@6.19.0-next.78)
+      '@sanity/preview-url-secret': 4.1.5(@sanity/client@8.9.0)
+      '@sanity/prism-groq': 1.1.2
+      '@sanity/schema': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/sdk': 3.8.0(@types/react@19.3.0)(immer@11.1.18)(react@19.3.0)(use-sync-external-store@1.7.0)(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/sdk-react': 3.8.0(@types/react@19.3.0)(immer@11.1.18)(react-dom@19.3.0)(react@19.3.0)(use-sync-external-store@1.7.0)(vitest@4.1.11)(xstate@5.33.2)
+      '@sanity/telemetry': 1.1.0(react@19.3.0)
+      '@sanity/types': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/ui': 4.4.4(react-dom@19.3.0)(react@19.3.0)(styled-components@6.5.3)
+      '@sanity/util': 6.19.0-next.78(@types/react@19.3.0)(vitest@4.1.11)
+      '@sanity/uuid': 3.0.3
+      '@sanity/validation': 6.19.0-next.78(@types/react@19.3.0)(typescript@7.0.2)(vitest@4.1.11)
+      '@sentry/react': 11.6.0(react@19.3.0)
+      '@tanstack/react-virtual': 3.14.17(react-dom@19.3.0)(react@19.3.0)
+      '@vanilla-extract/dynamic': 2.1.5
+      '@xstate/react': 6.1.0(@types/react@19.3.0)(react@19.3.0)(xstate@5.33.2)
+      clsx: 2.1.1
+      color2k: 2.0.4
+      dataloader: 2.2.3
+      date-fns: 4.4.0
+      dequal: 2.0.3
+      exif-component: 1.0.1
+      groq-js: 2.0.0
+      history: 5.3.0
+      i18next: 26.4.4(typescript@7.0.2)
+      is-hotkey-esm: 1.0.0
+      is-network-error: 1.3.2
+      isomorphic-dompurify: 2.36.0(@noble/hashes@2.4.0)(supports-color@10.2.2)
+      json-reduce: 3.0.0
+      json-stable-stringify: 1.3.0
+      lodash-es: 4.18.1
+      mendoza: 3.0.8
+      motion: 14.1.0(react-dom@19.3.0)(react@19.3.0)
+      nano-pubsub: 3.0.0
+      nanoid: 6.0.2
+      observable-callback: 1.0.3(rxjs@7.8.2)
+      obug: 3.0.0
+      player.style: 0.3.5(react@19.3.0)
+      polished: 4.3.1
+      quick-lru: 7.3.0
+      raf: 3.4.1
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+      react-fast-compare: 3.2.2
+      react-focus-lock: 2.13.7(@types/react@19.3.0)(react@19.3.0)
+      react-i18next: 17.0.16(i18next@26.4.4)(react-dom@19.3.0)(react@19.3.0)(typescript@7.0.2)
+      react-is: 19.3.0
+      react-refractor: 4.0.0(react@19.3.0)
+      react-rx: 7.0.1(react@19.3.0)(rxjs@7.8.2)
+      refractor: 5.0.0
+      rxjs: 7.8.2
+      rxjs-exhaustmap-with-trailing: 2.1.1(rxjs@7.8.2)
+      rxjs-mergemap-array: 0.1.0(rxjs@7.8.2)
+      scroll-into-view-if-needed: 3.1.0
+      scrollmirror: 1.2.4
+      semver: 7.8.5
+      speakingurl: 14.0.1
+      styled-components: 6.5.3(react-dom@19.3.0)(react@19.3.0)
+      swr: 2.5.1(react@19.3.0)
+      ui5: '@sanity/ui@5.0.0-alpha.14(react-dom@19.3.0)(react@19.3.0)'
+      urlpattern-polyfill: 10.1.0
+      use-device-pixel-ratio: 1.1.2(react@19.3.0)
+      use-effect-event: 2.0.4(react@19.3.0)
+      use-hot-module-reload: 2.0.0(react@19.3.0)
+      use-sync-external-store: 1.7.0(react@19.3.0)
+      uuid: 14.0.3
+      web-vitals: 6.2.3
+      xstate: 5.33.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/plugin-transform-runtime'
+      - '@babel/runtime'
+      - '@noble/hashes'
+      - '@rolldown/plugin-babel'
+      - '@sanity/workflow-blueprint'
+      - '@types/node'
+      - '@types/react'
+      - '@types/react-dom'
+      - '@vitejs/devtools'
+      - babel-plugin-react-compiler
+      - bare-abort-controller
+      - bare-buffer
+      - bufferutil
+      - canvas
+      - esbuild
+      - immer
+      - jiti
+      - less
+      - oxc-transform-react
+      - oxfmt
+      - prismjs
+      - react-native
+      - react-native-b4a
+      - react-router
+      - rolldown
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - utf-8-validate
+      - vitest
+      - vue-tsc
+
+  sanity@6.19.0-next.78(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react-dom@19.3.0)(@types/react@19.3.0)(esbuild@0.28.2)(immer@11.1.18)(jiti@2.7.0)(oxfmt@0.72.0)(react-dom@19.3.0)(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11):
+    dependencies:
+      '@algorithm.ts/lcs': 4.0.6
+      '@date-fns/tz': 1.5.0
+      '@dnd-kit/core': 6.3.1(react-dom@19.3.0)(react@19.3.0)
+      '@dnd-kit/modifiers': 9.0.0(@dnd-kit/core@6.3.1)(react@19.3.0)
+      '@dnd-kit/sortable': 10.0.0(@dnd-kit/core@6.3.1)(react@19.3.0)
+      '@dnd-kit/utilities': 3.2.2(react@19.3.0)
+      '@isaacs/ttlcache': 2.1.5
+      '@mux/mux-player-react': 3.14.0(@types/react-dom@19.3.0)(@types/react@19.3.0)(react-dom@19.3.0)(react@19.3.0)
+      '@portabletext/editor': 8.2.4(@types/react@19.3.0)(react@19.3.0)
+      '@portabletext/html': 2.0.1
+      '@portabletext/patches': 3.0.1
+      '@portabletext/plugin-dnd': 2.0.19(@portabletext/editor@8.2.4)(react@19.3.0)
+      '@portabletext/plugin-list-index': 2.0.17(@portabletext/editor@8.2.4)(react@19.3.0)
+      '@portabletext/plugin-markdown-shortcuts': 9.0.18(@portabletext/editor@8.2.4)(@types/react@19.3.0)(react@19.3.0)
+      '@portabletext/plugin-one-line': 8.0.17(@portabletext/editor@8.2.4)(react@19.3.0)
+      '@portabletext/plugin-paste-link': 5.0.17(@portabletext/editor@8.2.4)(react@19.3.0)
+      '@portabletext/plugin-table': 2.0.17(@portabletext/editor@8.2.4)(react-dom@19.3.0)(react@19.3.0)
+      '@portabletext/plugin-typography': 9.0.18(@portabletext/editor@8.2.4)(@types/react@19.3.0)(react@19.3.0)
+      '@portabletext/react': 8.0.1(react@19.3.0)
+      '@portabletext/sanity-bridge': 4.1.3(@types/react@19.3.0)(vitest@4.1.11)
+      '@portabletext/to-html': 6.0.0
+      '@portabletext/toolkit': 6.0.0
+      '@rexxars/react-json-inspector': 9.0.1(react@19.3.0)
+      '@sanity/access-ui': 6.19.0-next.78(react-dom@19.3.0)(react@19.3.0)(styled-components@6.5.3)(vitest@4.1.11)
+      '@sanity/asset-utils': 2.3.0
+      '@sanity/bifur-client': 2.0.2
+      '@sanity/cli': 8.16.0(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@noble/hashes@2.4.0)(@rolldown/plugin-babel@0.2.4)(@sanity/workflow-blueprint@0.36.0)(@types/node@24.19.0)(@types/react@19.3.0)(esbuild@0.28.2)(jiti@2.7.0)(oxfmt@0.72.0)(react@19.3.0)(rolldown@1.2.13)(sanity@6.19.0-next.78)(supports-color@10.2.2)(tsx@4.23.15)(typescript@7.0.2)(vitest@4.1.11)(xstate@5.33.2)
       '@sanity/client': 8.9.0(vitest@4.1.11)
       '@sanity/color': 3.0.9
       '@sanity/comlink': 4.0.3
@@ -32084,22 +32117,22 @@ snapshots:
       minimist: 1.2.8
       strip-bom: 3.0.0
 
-  tsdown@0.23.0(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2):
+  tsdown@0.23.1(@vitejs/devtools@0.4.12)(oxc-resolver@11.24.2)(publint@0.3.25)(tsx@4.23.15)(typescript@7.0.2):
     dependencies:
-      cac: 7.0.1
+      cac: 7.1.0
       defu: 6.1.7
       empathic: 2.1.0
       hookable: 6.1.2
       import-without-cache: 0.4.1
-      obug: 2.2.1
+      obug: 3.0.0
       picomatch: 4.0.7
       rolldown: 1.2.13
-      rolldown-plugin-dts: 0.28.6(oxc-resolver@11.24.2)(rolldown@1.2.13)(typescript@7.0.2)
+      rolldown-plugin-dts: 0.28.8(oxc-resolver@11.24.2)(rolldown@1.2.13)(typescript@7.0.2)
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
-      verkit: 0.4.1
+      verkit: 0.5.0
     optionalDependencies:
       '@vitejs/devtools': 0.4.12(@vitejs/devtools-oxc@0.4.12)(@vitejs/devtools-rolldown@0.4.12)(@vitejs/devtools-vite@0.4.12)(crossws@0.4.12)(srvx@1.0.5)(typescript@7.0.2)(valibot@1.5.0)(vite@8.3.4)
       publint: 0.3.25
@@ -32445,7 +32478,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  verkit@0.4.1: {}
+  verkit@0.5.0: {}
 
   version-range@4.15.0: {}
 
@@ -32788,26 +32821,13 @@ snapshots:
 
   yoga-layout@3.2.1: {}
 
-  yuku-ast@0.10.2:
+  yuku-ast@0.19.0:
     dependencies:
-      '@yuku-toolchain/types': 0.10.2
+      '@yuku-toolchain/types': 0.19.0
 
-  yuku-codegen@0.10.2:
+  yuku-codegen@0.19.0:
     dependencies:
-      '@yuku-toolchain/types': 0.10.2
-    optionalDependencies:
-      '@yuku-codegen/binding-android-arm64': 0.10.2
-      '@yuku-codegen/binding-darwin-arm64': 0.10.2
-      '@yuku-codegen/binding-darwin-x64': 0.10.2
-      '@yuku-codegen/binding-freebsd-x64': 0.10.2
-      '@yuku-codegen/binding-linux-arm-gnu': 0.10.2
-      '@yuku-codegen/binding-linux-arm-musl': 0.10.2
-      '@yuku-codegen/binding-linux-arm64-gnu': 0.10.2
-      '@yuku-codegen/binding-linux-arm64-musl': 0.10.2
-      '@yuku-codegen/binding-linux-x64-gnu': 0.10.2
-      '@yuku-codegen/binding-linux-x64-musl': 0.10.2
-      '@yuku-codegen/binding-win32-arm64': 0.10.2
-      '@yuku-codegen/binding-win32-x64': 0.10.2
+      '@yuku-toolchain/types': 0.19.0
 
   yuku-core@0.19.0:
     dependencies:
@@ -32826,24 +32846,6 @@ snapshots:
       '@yuku-core/binding-win32-arm64': 0.19.0
       '@yuku-core/binding-win32-x64': 0.19.0
 
-  yuku-parser@0.10.2:
-    dependencies:
-      '@yuku-toolchain/types': 0.10.2
-      yuku-ast: 0.10.2
-    optionalDependencies:
-      '@yuku-parser/binding-android-arm64': 0.10.2
-      '@yuku-parser/binding-darwin-arm64': 0.10.2
-      '@yuku-parser/binding-darwin-x64': 0.10.2
-      '@yuku-parser/binding-freebsd-x64': 0.10.2
-      '@yuku-parser/binding-linux-arm-gnu': 0.10.2
-      '@yuku-parser/binding-linux-arm-musl': 0.10.2
-      '@yuku-parser/binding-linux-arm64-gnu': 0.10.2
-      '@yuku-parser/binding-linux-arm64-musl': 0.10.2
-      '@yuku-parser/binding-linux-x64-gnu': 0.10.2
-      '@yuku-parser/binding-linux-x64-musl': 0.10.2
-      '@yuku-parser/binding-win32-arm64': 0.10.2
-      '@yuku-parser/binding-win32-x64': 0.10.2
-
   yuku-parser@0.19.0:
     dependencies:
       '@yuku-toolchain/types': 0.19.0
@@ -32861,13 +32863,13 @@ snapshots:
 
   zigpty@0.2.1: {}
 
-  zod-to-json-schema@3.25.2(zod@4.6.5):
+  zod-to-json-schema@3.25.2(zod@4.6.6):
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.6
 
-  zod-validation-error@5.0.0(zod@4.6.5):
+  zod-validation-error@5.0.0(zod@4.6.6):
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.6
 
   zod@3.22.4: {}
 
@@ -32875,7 +32877,7 @@ snapshots:
 
   zod@4.1.11: {}
 
-  zod@4.6.5: {}
+  zod@4.6.6: {}
 
   zustand@5.0.15(@types/react@19.3.0)(immer@11.1.18)(react@19.3.0)(use-sync-external-store@1.7.0):
     optionalDependencies:
